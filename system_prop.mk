@@ -104,7 +104,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.camera.cpp.duplication=false \
     camera2.portability.force_api=1 \
     camera.disable_treble=true \
-    debug.hwui.use_buffer_age=false
+    debug.hwui.use_buffer_age=false \
+    debug.sf.latch_unsignaled=1
 
 PRODUCT_PROPERTY_OVERRIDES += \
     vendor.qcom.bluetooth.soc=smd \
