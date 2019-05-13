@@ -7,4 +7,6 @@
     <!-- Whether to enable data switch or not -->
     <bool name="config_enableDataSwitch">true</bool>
 
+    <!-- Show battery icon in the QS Panel instead of in the header -->
+    <bool name="config_batteryInQSPanel">false</bool>
 </resources>
