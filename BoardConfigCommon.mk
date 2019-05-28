@@ -168,7 +168,7 @@ VENDOR_SECURITY_PATCH := 2017-06-01
 
 # SELinux
 include device/qcom/sepolicy-legacy/sepolicy.mk
-BOARD_SEPOLICY_DIRS += $(PLATFORM_PATH)/sepolicy
+BOARD_VENDOR_SEPOLICY_DIRS += $(PLATFORM_PATH)/sepolicy
 
 # Time service
 BOARD_USES_QC_TIME_SERVICES := true
