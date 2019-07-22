@@ -105,7 +105,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     camera2.portability.force_api=1 \
     camera.disable_treble=true \
     debug.hwui.use_buffer_age=false \
-    debug.sf.latch_unsignaled=1
+    debug.sf.latch_unsignaled=1 \
+    debug.sf.enable_gl_backpressure=1
 
 PRODUCT_PROPERTY_OVERRIDES += \
     vendor.qcom.bluetooth.soc=smd \
