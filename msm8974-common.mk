@@ -253,6 +253,13 @@ PRODUCT_PACKAGES += \
     libcnefeatureconfig \
     librmnetctl
 
+# Radio
+PRODUCT_PACKAGES += \
+    qti-telephony-hidl-wrapper \
+    qti_telephony_hidl_wrapper.xml \
+    qti-telephony-utils \
+    qti_telephony_utils.xml
+
 # RenderScript HAL
  PRODUCT_PACKAGES += \
     android.hardware.renderscript@1.0-impl
