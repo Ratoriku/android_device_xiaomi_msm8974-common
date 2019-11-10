@@ -150,6 +150,7 @@ BOARD_ROOT_EXTRA_FOLDERS           := firmware persist
 # Power
 TARGET_USES_INTERACTION_BOOST := true
 TARGET_POWERHAL_SET_INTERACTIVE_EXT := $(PLATFORM_PATH)/power/power_ext.c
+TARGET_USES_NON_LEGACY_POWERHAL := true
 
 # QCOM hardware
 BOARD_USES_QCOM_HARDWARE            := true
