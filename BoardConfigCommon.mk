@@ -175,11 +175,6 @@ BOARD_SEPOLICY_DIRS += $(PLATFORM_PATH)/sepolicy
 # Time service
 BOARD_USES_QC_TIME_SERVICES := true
 
-# TWRP Support
-ifeq ($(WITH_TWRP),true)
--include $(PLATFORM_PATH)/twrp/twrp.mk
-endif
-
 # Wifi
 BOARD_HAS_QCOM_WLAN              := true
 BOARD_WLAN_DEVICE                := qcwcn
