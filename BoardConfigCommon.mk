@@ -147,6 +147,9 @@ BOARD_PERSISTIMAGE_PARTITION_SIZE   := 16384000
 BOARD_FLASH_BLOCK_SIZE              := 131072
 BOARD_ROOT_EXTRA_FOLDERS           := firmware persist
 
+# Gestures
+TARGET_GESTURES_NODE := "/proc/touchpanel/gesture_enable"
+
 # Power
 TARGET_USES_INTERACTION_BOOST := true
 TARGET_POWERHAL_SET_INTERACTIVE_EXT := $(PLATFORM_PATH)/power/power_ext.c
