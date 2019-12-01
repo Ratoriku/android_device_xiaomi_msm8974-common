@@ -7,8 +7,7 @@ $(call inherit-product, vendor/xiaomi/msm8974-common/msm8974-common-vendor.mk)
 -include $(LOCAL_PATH)/system_prop.mk
 
 # Boot animation
-TARGET_SCREEN_HEIGHT := 1920
-TARGET_SCREEN_WIDTH := 1080
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device uses ultra-high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal hdpi xhdpi xxhdpi
