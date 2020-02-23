@@ -2,3 +2,6 @@
 /firmware(/.*)?          u:object_r:firmware_file:s0
 /persist(/.*)?          u:object_r:firmware_file:s0
 /tombstones(/.*)?          u:object_r:firmware_file:s0
+
+# Lineage hardware
+/(vendor|system/vendor)/bin/hw/vendor\.lineage\.touch@1\.0-service\.cancro                    u:object_r:hal_lineage_touch_default_exec:s0
