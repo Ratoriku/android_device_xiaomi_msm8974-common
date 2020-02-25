@@ -122,6 +122,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.qualcomm.bluetooth.nap=true \
     ro.qualcomm.bluetooth.opp=true \
     ro.qualcomm.bluetooth.pbap=true
+
 # SurfaceFlinger
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.max_frame_buffer_acquired_buffers=3 \
@@ -129,4 +130,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.use_smart_90_for_video=true \
     ro.surface_flinger.set_display_power_timer_ms=10000 \
     ro.surface_flinger.set_touch_timer_ms=5000 \
-    ro.surface_flinger.set_idle_timer_ms=9000
+    ro.surface_flinger.set_idle_timer_ms=9000 \
+    ro.surface_flinger.start_graphics_allocator_service=true
