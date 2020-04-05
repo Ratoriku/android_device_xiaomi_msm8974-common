@@ -249,12 +249,26 @@ PRODUCT_PACKAGES += \
     libcnefeatureconfig \
     librmnetctl
 
+# IMS
+PRODUCT_PACKAGES += \
+    ims-ext-common_system
+ 
+PRODUCT_BOOT_JARS += \
+    ims-ext-common_system
+
 # Radio
 PRODUCT_PACKAGES += \
     qti-telephony-hidl-wrapper \
     qti_telephony_hidl_wrapper.xml \
     qti-telephony-utils \
     qti_telephony_utils.xml
+
+# Telephony
+PRODUCT_PACKAGES += \
+    telephony-ext
+ 
+PRODUCT_BOOT_JARS += \
+    telephony-ext
 
 # RenderScript HAL
  PRODUCT_PACKAGES += \
