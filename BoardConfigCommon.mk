@@ -79,9 +79,6 @@ USE_DEVICE_SPECIFIC_CAMERA             := true
 TARGET_PROCESS_SDK_VERSION_OVERRIDE := \
     /system/vendor/bin/mm-qcamera-daemon=23
 
-# Charger
-BOARD_CHARGER_ENABLE_SUSPEND := true
-
 # Crypto
 TARGET_HW_DISK_ENCRYPTION := true
 TARGET_LEGACY_HW_DISK_ENCRYPTION := true

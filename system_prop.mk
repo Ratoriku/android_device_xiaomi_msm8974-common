@@ -28,6 +28,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     bluetooth.hfp.client=1 \
     ro.bluetooth.alwaysbleon=true
 
+# Charger
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.charger.enable_suspend=true
+
 # System property for cabl
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.qualcomm.cabl=0 \
