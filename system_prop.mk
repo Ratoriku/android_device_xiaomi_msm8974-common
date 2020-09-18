@@ -130,4 +130,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.latch_unsignaled=1 \
-    debug.sf.disable_backpressure=1
+    debug.sf.disable_backpressure=1 \
+    ro.surface_flinger.supports_background_blur=1
