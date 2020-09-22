@@ -175,6 +175,9 @@ BOARD_VENDOR_SEPOLICY_DIRS += $(PLATFORM_PATH)/sepolicy
 # Time service
 BOARD_USES_QC_TIME_SERVICES := true
 
+# Vintf
+PRODUCT_ENFORCE_VINTF_MANIFEST_OVERRIDE := true
+
 # Wifi
 BOARD_HAS_QCOM_WLAN              := true
 BOARD_WLAN_DEVICE                := qcwcn
